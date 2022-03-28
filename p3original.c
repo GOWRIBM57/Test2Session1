@@ -1,4 +1,4 @@
-#include<stdio.h>
+ #include<stdio.h>
 int input()
 {
   int n;
@@ -39,6 +39,6 @@ int main()
   int i,n,flag,prime;
   n=input();
   flag=isprime(n);
-  output(n,prime);
+   output(n,prime);
   return 0;
 }
